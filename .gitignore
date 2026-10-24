@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.env
+
+# Virtual environments
+.venv
+
+# Runtime logs
+logs/
+
+# Generated simulation datasets
+simulated_data/*.csv
+
+# Local Streamlit auth store
+data/app_users.json
+data/app_users.tmp
+
+.cursorignore
+.pytest_cache/
+.ruff_cache/
+
+.vscode/
+
+data/
+simulated_data/
+

@@ -1,0 +1,26 @@
+[project]
+name = "monoegde"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "PranavJoshi1", email = "joshipranavc@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "psycopg[binary]>=3.3.6",
+    "pydantic>=2.14.1",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.50.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "data_simulation"
+module-root = "src"
