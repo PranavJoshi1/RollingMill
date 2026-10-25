@@ -1,4 +1,4 @@
-# Monoegde
+# RollingMill
 
 **Mono Edge–style rolling-mill signal analytics:** synthetic PLC-like streams, historical exploration, and live cobble-precursor detection in a Streamlit operator console.
 
